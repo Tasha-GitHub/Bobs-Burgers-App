@@ -1,0 +1,37 @@
+.left-well{
+	background-color: yellow;
+	min-width: 500px;
+	text-align: center;
+}
+
+.right-well{
+	background-color: blue;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	min-width: 500px;
+	text-align: center;
+
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+h1{
+	text-align: center;
+}
+
+.order, .menu{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+}
+
+#offOrder, #offMenu{
+	margin-top: 15px;
+	margin-left: 15px;
+}
