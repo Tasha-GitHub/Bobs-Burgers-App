@@ -33,15 +33,15 @@ router.post("/burgers/create", function(req, res) {
 router.put("/burgers/update/:id", function(req, res) {
   var condition = "id = " + req.params.id;
 
-  console.log("condition", condition);
-  console.log("request" + req.body)
-  console.log("req.body.devoured")
+  // console.log("condition", condition);
+  // console.log("request");
+  // console.log(req.body.devoured);
 
-  // burger.update({
-  //   devoured: req.body.devoured
-  // }, condition, function() {
-  //   res.redirect("/burgers");
-  // });
+  burger.update({
+    devoured: true
+  }, condition, function() {
+    res.redirect("/burgers");
+  });
 });
 
 router.delete("/burgers/delete/:id", function(req, res) {
