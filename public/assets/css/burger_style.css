@@ -42,6 +42,10 @@ h2{
 	color: #000000;;
 }
 
+#burgerInput{
+	color: #000000;
+}
+
 /*------other divs--------*/
 .order, .menu{
 	display: flex;
