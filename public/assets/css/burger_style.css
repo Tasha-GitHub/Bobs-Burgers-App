@@ -172,6 +172,27 @@ footer{
 		order: 1 !important;
 
 	}
+
+	.bottom-well .row{
+		widows: 100%;
+	}
+	.bottom-well .form-group{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#burgerInput{
+		margin: 0px 10px 0px 0px;
+	}
+
+	h2{
+		font-size: 150%;
+	}
+
+	.form-group{
+		padding: 0px 0px 20px 0px;
+	}
 }
 
 @media only screen and (min-width:400px) and (max-width : 480px) {
@@ -219,11 +240,32 @@ footer{
 
 	}
 
+	.bottom-well .row{
+		widows: 100%;
+	}
+	.bottom-well .form-group{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#burgerInput{
+		margin: 0px 10px 0px 0px;
+	}
+
+	h2{
+		font-size: 150%;
+	}
+
+	.form-group{
+		padding: 0px 0px 20px 0px;
+	}
+
 }
 
 @media only screen and (min-width: 321px) and (max-width : 375px) {
 
-	.banner img{
+	.banner {
 		width: 100%;
 		/*height: 100px;*/
 	}
@@ -264,9 +306,28 @@ footer{
 		justify-content: space-around;
 		align-items: center;
 		order: 1 !important;
-
+	}
+	
+	.bottom-well .row{
+		widows: 100%;
+	}
+	.bottom-well .form-group{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 
+	#burgerInput{
+		margin: 0px 10px 0px 0px;
+	}
+	
+	h2{
+		font-size: 150%;
+	}
+
+	.form-group{
+		padding: 0px 0px 20px 0px;
+	}
 }
 
 
@@ -313,5 +374,26 @@ footer{
 		align-items: center;
 		order: 1 !important;
 
+	}
+
+	.bottom-well .row{
+		widows: 100%;
+	}
+	.bottom-well .form-group{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#burgerInput{
+		margin: 0px 10px 0px 0px;
+	}
+
+	h2{
+		font-size: 150%;
+	}
+
+	.form-group{
+		padding: 0px 0px 20px 0px;
 	}
 }
