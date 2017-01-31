@@ -10,12 +10,15 @@ router.get("/", function(req, res) {
 });
 
 router.get("/burgers", function(req, res) {
+
   burger.all(function(data) {
     var hbsObject = {
       burgers: data
+      //console.log(data);
     };
-    console.log("handblebars obj")
-    console.log(hbsObject);
+    // console.log("handblebars obj")
+    // console.log(hbsObject);
+    console.log(data)
     res.render("index", hbsObject);
   });
 });
