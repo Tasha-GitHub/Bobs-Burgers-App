@@ -127,7 +127,7 @@ footer{
                     Media Queries            
 =====================================================*/
 
-@media only screen and (max-width : 768px) {
+@media only screen and (min-width:768px) and (max-width : 1200px) {
 
 	.banner img{
 		width: 100%;
@@ -140,6 +140,7 @@ footer{
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
+		font-size: 200%;
 	}
 
 
@@ -150,6 +151,7 @@ footer{
 		justify-content: space-around;
 		align-items: center;
 		order: 3 !important;
+		width: 100%
 
 	}
 
@@ -160,6 +162,7 @@ footer{
 		justify-content: space-around;
 		align-items: center;
 		order: 2 !important;
+		width: 100%
 
 	}
 	
@@ -170,6 +173,7 @@ footer{
 		justify-content: space-around;
 		align-items: center;
 		order: 1 !important;
+		width: 100%
 
 	}
 
@@ -207,6 +211,7 @@ footer{
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
+		font-size: 150%;
 	}
 
 
@@ -276,6 +281,7 @@ footer{
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
+		font-size: 150%;
 	}
 
 
@@ -343,6 +349,7 @@ footer{
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
+		font-size: 100%;
 	}
 
 
